@@ -6,7 +6,7 @@ public class LeftCircularShift {
 
         int temp = arr[0]; // Store the first value in temp
 
-        //loop for circular shift to the left (main logic)
+        //loop for circular shift to the left (core logic)
         for(int i = 0; i < arr.length - 1; i++){
             arr[i] = arr[i + 1];
         }
